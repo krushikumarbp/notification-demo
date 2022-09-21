@@ -1,5 +1,7 @@
 import React from "react";
-const IconSource = ({ size }) => {
+import { IconProps } from "../commonTypes";
+
+const IconSource: React.FC<IconProps> = ({ size }) => {
   return (
     <svg height={size} viewBox="0 0 48 48" width={size}>
       <path d="M0 0h48v48H0V0z" fill="none" />
