@@ -11,5 +11,9 @@ export interface DynamicFieldsDropdownProps {
 }
 
 export interface HTMLSourceProps extends DynamicFieldsDropdownProps {
-  toggleSource: () => void; 
+  toggleSource: () => void;
+}
+
+export interface DocumentDownloadProps {
+  exportToWord: () => void;
 }

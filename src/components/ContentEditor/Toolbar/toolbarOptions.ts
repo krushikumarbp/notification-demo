@@ -9,6 +9,7 @@ export const toolbarOptions = {
     "link",
     "remove",
     "history",
+    "image",
   ],
   className: "ce-toolbar",
   inline: {
@@ -37,6 +38,9 @@ export const toolbarOptions = {
     className: "ce-toolbar",
   },
   history: {
+    className: "ce-toolbar",
+  },
+  image: {
     className: "ce-toolbar",
   },
 };
